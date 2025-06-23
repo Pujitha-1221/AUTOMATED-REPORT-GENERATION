@@ -190,7 +190,4 @@ Writes the PDF to disK
 
 #OUTPUT:
 
-Image
-
-Image
 
