@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from fpdf import FPDF
 from fpdf.enums import XPos, YPos
 #load data
-df = pd.read_csv("students.csv")
+df = pd.read_csv("studentlist")
 #analyze and give report
 total_students = len(df)
 average_marks = df['Marks'].mean()
