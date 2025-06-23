@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from fpdf import FPDF
 from fpdf.enums import XPos, YPos
 #load data
-df = pd.read_csv("studentlist")
+df = pd.read_csv("studentdetails")
 #analyze and give report
 total_students = len(df)
 average_marks = df['Marks'].mean()
@@ -72,7 +72,7 @@ for index, row in df.iterrows():
     pdf.cell(40, 8, str(row["Marks"]), 1)
     pdf.ln()
 # Save PDF
-pdf.output("student_report_fpdf.pdf")
-print("✅PDF 'student_report_fpdf.pdf' created successfully.") 
+pdf.output("student_details_fpdf.pdf")
+print("✅PDF 'student_details_fpdf.pdf' created successfully.") 
 
 
