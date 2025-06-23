@@ -73,4 +73,6 @@ for index, row in df.iterrows():
     pdf.ln()
 # Save PDF
 pdf.output("student_report_fpdf.pdf")
-print("✅PDF 'student_report_fpdf.pdf' created successfully.")
+print("✅PDF 'student_report_fpdf.pdf' created successfully.") 
+
+
