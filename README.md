@@ -189,5 +189,9 @@ Writes the PDF to disK
 ➤Save PDF - Output the report file
 
 #OUTPUT:
+![Image](https://github.com/user-attachments/assets/7e3d1395-a34c-48e9-9ac9-367878e69489)
 
+![Image](https://github.com/user-attachments/assets/616720df-1681-4185-858a-00e07b15e4d1)
+
+![Image](https://github.com/user-attachments/assets/638a1a1c-80f8-42b5-872d-5dece4771eb4)
 
